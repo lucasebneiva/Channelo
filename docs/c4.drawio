@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="BEcfu7MgZl3luPEU35bv">
+    <mxGraphModel dx="1768" dy="-678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AEcgwNoknjP_FrmElfnm-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;strokeColor=none;fontColor=#FFFFFF;" value="&lt;font face=&quot;Garamond&quot;&gt;&amp;lt;&amp;lt;person&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;User&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;i&gt;Uses the system&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="96" width="159" x="53" y="2025" as="geometry" />
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=1;" value="" vertex="1">
+          <mxGeometry height="292" width="748" x="333" y="1911" as="geometry" />
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-26" parent="AEcgwNoknjP_FrmElfnm-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;System&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="344" as="geometry" />
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-32" edge="1" parent="AEcgwNoknjP_FrmElfnm-23" source="AEcgwNoknjP_FrmElfnm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AEcgwNoknjP_FrmElfnm-29" value="&lt;div&gt;Makes API calls&amp;nbsp;&lt;/div&gt;&lt;div&gt;[HTTPS/JSON]&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-24" parent="AEcgwNoknjP_FrmElfnm-23" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0066CC;strokeColor=none;fontColor=#FFFFFF;" value="&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;container&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;Angular SPA&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;i&gt;Providers user interface&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="96" width="159" x="23" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-37" edge="1" parent="AEcgwNoknjP_FrmElfnm-23" source="AEcgwNoknjP_FrmElfnm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AEcgwNoknjP_FrmElfnm-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-38" connectable="0" parent="AEcgwNoknjP_FrmElfnm-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Reads/Writes&lt;br&gt;[SQL]" vertex="1">
+          <mxGeometry relative="1" x="-0.3027" y="1" as="geometry">
+            <mxPoint x="19" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-29" parent="AEcgwNoknjP_FrmElfnm-23" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0066CC;strokeColor=none;fontColor=#FFFFFF;" value="&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;container&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;.NET Web API&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;i&gt;Providers business logic and API&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="96" width="159" x="294.5" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-33" parent="AEcgwNoknjP_FrmElfnm-23" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=none;fillColor=#0066CC;fontColor=#FFFFFF;" value="&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;container&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;PostgreSQL&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;i&gt;Stores application data&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="122" width="157" x="570" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="AEcgwNoknjP_FrmElfnm-28" edge="1" parent="1" source="AEcgwNoknjP_FrmElfnm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;targetPerimeterSpacing=1;endArrow=none;endFill=0;" target="AEcgwNoknjP_FrmElfnm-22" value="Uses [HTTPS]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
