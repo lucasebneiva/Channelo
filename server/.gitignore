@@ -1,0 +1,41 @@
+# Build outputs
+bin/
+obj/
+
+# Rider/JetBrains
+.idea/
+
+# VS / VS Code (in case)
+.vscode/
+*.user
+*.suo
+.vs/
+
+# .NET
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# User-specific files
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Environment / secrets
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+logs/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
