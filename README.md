@@ -55,11 +55,12 @@ Built with **Angular** on the frontend and **ASP.NET Core** on the backend, Chan
 
 ## 🏗️ Architecture
 
-> Diagrams coming soon.
-
 Channelo follows a clean client/server architecture:
+
+<img width="1093" height="358" alt="Untitled Diagram drawio(1)" src="https://github.com/user-attachments/assets/ce394f29-301d-4416-a30d-e2612e7e7ba0" />
+
 ```
-channelo/
+Channelo/
 ├── client/          # Angular frontend
 ├── server/          # ASP.NET Core backend
 └── docker-compose.yml
