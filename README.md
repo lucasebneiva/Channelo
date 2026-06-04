@@ -67,6 +67,12 @@ Channelo/
 ```
 ---
 
+## 🗄️ Database Schema
+
+The entity-relationship diagram below outlines the core data model:
+
+<img width="756" height="660" alt=" Chanello ERD" src="https://github.com/user-attachments/assets/f385cafb-8374-41ca-b711-7538308e229a" />
+
 ## 🚀 Getting Started
 
 > Full setup instructions will be added as the project matures.
