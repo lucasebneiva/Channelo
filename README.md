@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://github.com/user-attachments/assets/c4f1a97f-c079-4c5c-a0f6-e8658389fd30" alt="Channelo Logo" width="360" />
+  <img width="360" alt="Channelo Logo" src="https://github.com/user-attachments/assets/86618bb6-da1d-44f2-a75f-672a62cda632" />
 
   <p>
     An open-source team communication platform — clean, fast, and self-hostable.
