@@ -15,6 +15,17 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 
+// CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200") // Your Angular URL
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 // JWT Auth
 builder.Services.AddScoped<ITokenService, TokenService>();
 
@@ -38,6 +49,8 @@ builder.Services.AddAuthorization();
 
 // Build
 var app = builder.Build();
+
+app.UseCors("AllowAngular");
 
 if (app.Environment.IsDevelopment())
 {
