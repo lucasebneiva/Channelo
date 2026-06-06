@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  /* Define our custom brand colors based on your gradient */
+  --color-brand-start: #3C8DFE;
+  --color-brand-end: #8E38FF;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 m-0 p-0 font-sans antialiased;
+}
