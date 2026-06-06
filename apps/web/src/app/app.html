@@ -24,6 +24,26 @@
 
   <!-- Main Application Content -->
   <main class="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col">
+    <!-- TEMPORARY TEST BLOCK -->
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8 border border-gray-200">
+      <h2 class="text-xl font-bold mb-4">Auth State Test</h2>
+      <p class="mb-2">Authenticated: <span class="font-bold text-brand-start">{{ auth.isAuthenticated() }}</span></p>
+      
+      @if (auth.isAuthenticated()) {
+        <div class="mb-4 p-4 bg-green-50 text-green-800 rounded">
+          <p>Welcome, {{ auth.currentUser()?.displayName }}!</p>
+          <p>Email: {{ auth.currentUser()?.email }}</p>
+        </div>
+        <button (click)="auth.logout()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded shadow transition-colors">
+          Logout
+        </button>
+      } @else {
+        <button (click)="testLogin()" class="bg-brand-start hover:bg-brand-end text-white px-4 py-2 rounded shadow transition-colors">
+          Test Login with API
+        </button>
+      }
+    </div>
+    <!-- END TEMPORARY TEST BLOCK -->
     <router-outlet></router-outlet>
   </main>
 </div>
