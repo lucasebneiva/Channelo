@@ -1,4 +1,4 @@
-namespace server.Entities;
+namespace ChanneloApi.Entities;
 
 public class User
 {

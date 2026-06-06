@@ -1,7 +1,7 @@
-using server.Entities;
 using Microsoft.EntityFrameworkCore;
+using ChanneloApi.Entities;
 
-namespace server.Data;
+namespace ChanneloApi.Data;
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {

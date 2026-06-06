@@ -1,4 +1,4 @@
-namespace server.DTOs.Auth;
+namespace ChanneloApi.DTOs.Auth;
 
 public class AuthResponse
 {

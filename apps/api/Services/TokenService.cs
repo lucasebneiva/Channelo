@@ -1,10 +1,10 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using ChanneloApi.Entities;
 using Microsoft.IdentityModel.Tokens;
-using server.Entities;
 
-namespace server.Services;
+namespace ChanneloApi.Services;
 
 public interface ITokenService
 {

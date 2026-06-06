@@ -1,4 +1,4 @@
-namespace server.Entities;
+namespace ChanneloApi.Entities;
 public class Conversation
 {
     public Guid Id { get; set; }

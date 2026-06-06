@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using server.Data;
-using server.DTOs.Auth;
-using server.Entities;
-using server.Services;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using ChanneloApi.Data;
+using ChanneloApi.DTOs.Auth;
+using ChanneloApi.Entities;
+using ChanneloApi.Services;
 
-namespace server.Controllers;
+namespace ChanneloApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
